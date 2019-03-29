@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <title>Kristoffers begivenheder</title>
+    
+    <meta name="description" content="Kristoffers begivenheder">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        // Menu-toggle button
+
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                $("nav ul").toggleClass("showing");
+            });
+        });
+
+        // Scrolling Effect
+
+        $(window).on("scroll", function() {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <nav>
+            <div class="logo"> <img src="images/logo2.png" alt="Get Together">  </div>
+            <ul>
+                <li><a href="#">Nyheder</a></li>
+                <li><a href="#">Begivenheder nær dig</a></li>
+                <li><a href="#">Lav venner for livet</a></li>
+            </ul>
+        </nav>
+        <section class="sec1"></section>
+        <section class="content">
+
+                    <h1>Sociale begivenheder for alle slags studenter</h1>
+
+<p>Get Together er et organisation som beskæftiger sig med at lave begivenheder og arrangementer for de mange studenter som bor rundt omkring i Århus.</p>
+
+<p>Hos Get Together sørger vi for at det er muligheder for så mange forskellige personer at finde en aktivitet som de syntes er værd at tage til og måde nye mennesker. Der er arrangementer fra forfester til brætspils tuneringer til eftermiddagshygge i en af Århus' mange parker.  </p>
+        
+<p>Ved de forskellige aktiviteter, arrangementer og begivenheder handler det om at være engagerende og imødekommende overfor nye mennesker, ligesom digselv er taget med fordi det fangede deres interesse for et emne som de går op i. Get Together byder alle studenter velkommen til at deltage i de forskellige sociale aktiviteter som står tilrådighed for 50 kr. pr. måned. Get Together sætter arrangementerne op på Facebook hvor der så er frivilige til at holde styr på forholdene. </p>
+            
+        </section>
+    </div>
+
+    <!-- her begynder flexbox -->
+    
+    <h1>Aktiviteter</h1>
+
+    <div class="boxcontainer">
+        <div class="box">
+            <div class="imgBox">
+                <img src="/images/bod1.jpg">
+            </div>
+            <div class="boxdetails">
+                <div class="boxcontent">
+                    <h2>Venner for livet</h2>
+                    <p>Lige som på gymnasiet og universitetet, handler disse akitiviter om at lærer nye mennesker at kende og finde venner for livet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <img src="/images/bod2.png">
+            </div>
+            <div class="boxdetails">
+                <div class="boxcontent">
+                    <h2>Fritid fra skolen</h2>
+                    <p> Igennem de normale skoletider bliver der lagt de sociale begivenheder op på Facebook hvor man deltage lige efter skoleklokken ringer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <img src="/images/bod3.png">
+            </div>
+            <div class="boxdetails">
+                <div class="boxcontent">
+                    <h2>Spændende oplevelser</h2>
+                    <p>Disse aktiviteter behøver ikke kun at finde sted inden for Danmark. Get Together arrangerer også rejser udenfor Danmarks grænser, hvis man kunne få brug for en fed weekendtur.</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <img src="/images/bod4.png">
+            </div>
+            <div class="boxdetails">
+                <div class="boxcontent">
+                    <h2>Forfester</h2>
+                    <p>Vores mest eftertragte akitivitet er de mange forfester som bliver holdt rundt omkring i Århus og omegn. Her er der private boliger som giver mulighed for at blive brugt som pladser til mennesker som vil hygge sig inden byen.</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <img src="/images/bod5.png">
+            </div>
+            <div class="boxdetails">
+                <div class="boxcontent">
+                    <h2>Hobbyer</h2>
+                    <p> Hos Get Together står vi klar med forskellige muligheder for at udøve sine kompetencer inden for et erhvervsområde som passer til sine interesser.</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <img src="/images/bod6.png">
+            </div>
+            <div class="boxdetails">
+                <div class="boxcontent">
+                    <h2>Byture</h2>
+                    <p> Århus har en masse fantastiske barer, diskoteker og klubber at tage på. Derfor arrangerer vi ofte nogle gode tilbud til bestemte etablissementer for at give den bedste tid til de bedste penge. </p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <img src="/images/bod7.png">
+            </div>
+            <div class="boxdetails">
+                <div class="boxcontent">
+                    <h2>Hyggesnak</h2>
+                    <p> Hvis man mangler nogle at snakke med til hverdag, og det ikke er nok at skrive løs på mobilen eller computeren, er der også muligheder for at tage til arrangementer hvor der er sat stort fokus på at samtale med nye mennesker.</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <img src="/images/bod8.png">
+            </div>
+            <div class="boxdetails">
+                <div class="boxcontent">
+                    <h2>Sociale kompetencer </h2>
+                    <p>Hvis du mener at du mangler nogle sociale kompetencer for at være ordentligt med  i klassens sociale forhold, eller for at kunne færdes med dine venners venner. Så er der selvfølgelig også mulighed for det. Ved mange af disse aktiviteter er der mange som gerne vil lærer fra sig til hvordan man bliver social stærk.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    
+    <h1> Vær med til alt det sjove </h1>
+    <div class="tider">
+        <div class="tiderbox">
+        <dl> 
+            <dt>Hvis det lyder som noget der kunne vække interesse</dt>
+            <p> Så er det bare at slå sig løs og give den gas til mange af de forskellige arrangementer og begivenheder som bliver sat op hver uge. </p>
+                
+        </dl>
+        </div>       
+
+    </div>
+<br>
+<br> 
+<br> 
+<br>
+<br>
+<br>
+
+</body>
+
+</html>
